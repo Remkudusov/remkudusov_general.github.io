@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.header__title {
+  background: url("../img/stars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  height: 700px;
+}
+.title__blur {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.title__nav {
+  display: flex;
+  margin-top: 20px;
+}
+.nav__logo {
+  display: flex;
+  align-items: flex-end;
+  width: 20%;
+  margin: 0 auto;
+}
+.logo__name {
+  font-size: 30px;
+}
+.logo__format {
+  font-size: 15px;
+  color: black;
+  background-color: yellow;
+  padding: 2.5px;
+  border-radius: 2px;
+}
+.nav__tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.tabs__tab_active {
+  color: black;
+  background-color: yellow;
+  padding: 2.5px 10px;
+  border-radius: 2px;
+}
+.title__description {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.title__description h1 {
+  font-weight: 100;
+}
+.title__registration {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+.title__registration input {
+  padding: 10px;
+  width: 29%;
+}
+.title__registration input::placeholder,
+.title__registration input::-webkit-input-placeholder,
+.title__registration input::-moz-placeholder,
+.title__registration input::-ms-placeholder {
+  color: white;
+}
+.title__registration input[type="email"],
+.title__registration input[type="password"] {
+  background: transparent;
+  border: 1px solid white;
+  color: yellow;
+}
+.title__registration input[type="submit"] {
+  border: none;
+  background: yellow;
+  font-weight: bold;
+}
+.header__description {
+  background: #191b29;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.description__phone img {
+  width: 300px;
+  height: 500px;
+  transform: translateY(-100px);
+}
+.description__services {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.services__service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+}
+.services__service p {
+  font-weight: 100;
+}
+.service__title {
+  display: flex;
+  align-items: center;
+}
+.service__title h2 {
+  font-weight: 300;
+}
+.service__title img {
+  float: left;
+  max-height: 50px;
+  width: auto;
+  margin-right: 30px;
+}
+.statistics__team {
+  background: #ffd800;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.team__headline {
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+.team__headline h1 {
+  font-weight: 100;
+}
+.team__people {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.people__profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 22%;
+  height: 250px;
+  text-align: center;
+}
+.people__profile img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.people__description {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.people__description p {
+  font-weight: 300;
+}
+.report__briefly {
+  background: #ffe347;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.report__deployed {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.report__text1 {
+  width: 68%;
+  margin: auto;
+}
+.report__text1 h3,
+.report__text1 p {
+  width: 50%;
+}
+.statistics__report p,
+.report__deployed button {
+  margin: 20px 0;
+}
+.report__text2,
+.report__img {
+  width: 34%;
+}
+.report__img img {
+  position: absolute;
+  max-height: 600px;
+  width: auto;
+  transform: translateY(-400px);
+  right: 0;
+}
+.report__text2 button {
+  width: 200px;
+  height: 40px;
+  background-color: #191b29;
+  border: none;
+  color: white;
+}
+.container__appwork {
+  background: url("../img/stars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  color: white;
+}
+.appwork__blur {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.appwork__caption {
+  width: 100%;
+  text-align: center;
+}
+.appwork__caption h1 {
+  font-weight: 100;
+}
+.appwork__features {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+.features__feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 22%;
+  height: 250px;
+  text-align: center;
+}
+.features__feature img {
+  max-height: 70px;
+  width: auto;
+  margin: 0 auto;
+}
+.feature__description {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.feature__description p {
+  font-weight: 300;
+}
+.appwork__download {
+  width: 200px;
+  height: 40px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  margin: 0 auto;
+}
+.container__footer {
+  background-color: #191b29;
+  height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__credits {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 50px auto;
+}
+.footer__credits h4 {
+  font-weight: 300;
+  margin: 5px auto;
+}
+.footer__description {
+  text-align: center;
+  margin: 50px auto;
+}
+.footer__description p {
+  font-weight: 100;
+}
+@media screen and (max-width: 1000px) {
+  .nav__tabs {
+    width: 70%;
+  }
+  .header__description {
+    height: 700px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .description__phone {
+    display: none;
+  }
+  .description__services {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .services__service {
+    justify-content: space-around;
+    height: 150px;
+  }
+  .service__title {
+    justify-content: center;
+  }
+  .services__service p {
+    text-align: center;
+  }
+  .statistics__team {
+    height: 1150px;
+    justify-content: start;
+  }
+  .team__headline {
+    margin: 20px 0;
+  }
+  .team__people {
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .statistics__report {
+    text-align: center;
+  }
+  .people__profile {
+    margin: 0 auto;
+  }
+  .report__text1 {
+    width: 34%;
+    margin: auto;
+  }
+  .report__text1 h3,
+  .report__text1 p {
+    width: 100%;
+  }
+  .report__img {
+    display: none;
+  }
+  .container__appwork {
+    height: 1300px;
+  }
+  .appwork__features {
+    flex-direction: column;
+    width: 100%;
+  }
+  .features__feature {
+    margin: 0 auto;
+  }
+  .container__footer {
+    height: 1200px;
+  }
+  .footer__credits {
+    flex-direction: column;
+    margin: 20px auto;
+    height: 1000px;
+  }
+  .creadits__credit {
+    text-align: center;
+  }
+}
